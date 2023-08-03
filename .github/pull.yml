@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: main
+    upstream: owner:main
+    mergeMethod: merge
+  - base: api
+    upstream: owner:api
+    mergeMethod: merge
