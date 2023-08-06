@@ -5,4 +5,4 @@ rules:
     mergeMethod: merge
   - base: api
     upstream: AI-READI:api
-    mergeMethod: merge
+    mergeMethod: hardreset
