@@ -1,8 +1,8 @@
 version: "1"
 rules:
   - base: main
-    upstream: owner:main
+    upstream: AI-READI:main
     mergeMethod: merge
   - base: api
-    upstream: owner:api
+    upstream: AI-READI:api
     mergeMethod: merge
