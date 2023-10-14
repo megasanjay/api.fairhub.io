@@ -72,9 +72,4 @@ class Study(db.Model):
 
     def validate(self):
         """Validates the study"""
-        violations = []
-        # if self.description.trim() == "":
-        #     violations.push("A description is required")
-        # if self.keywords.length < 1:
-        #     violations.push("At least one keyword must be specified")
-        return violations
+        return []
